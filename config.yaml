@@ -1,0 +1,21 @@
+MODEL:
+  BASE_MODEL: ['AlexNet', 'ResNet']
+  CLASSIFIER_NAME: ['AlexNet', 'ResNet']
+  NUM_CLASSES: 10
+
+TRAINING:
+  EPOCHS: 200
+  BATCH_SIZE: 8
+  LEARNING_RATE: 0.001
+  LOG_FILE : 'trained_model/'
+# DATASET_DIR: './dataset/Iris.csv'
+#  TRAIN_DIR: '.'       # path to training data
+#  #path for PNG data /datasets/ASL-PNG
+#  VAL_DIR: '.' # path to validation data
+  #path for PNG data /datasets/ASL-PNG
+  SAVE_DIR: 'trained_model/'           # path to save models
+
+DATASET:
+  DATASET_NAME: 'CUSTOM'
+  DATASET_DIR: './dataset/image/stl10/abnormal'
+  TARGET: 'Species'
