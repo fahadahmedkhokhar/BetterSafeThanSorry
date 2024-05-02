@@ -36,16 +36,16 @@ python main.py
 4. Run Tabular Classifier:
 ```bash
 python tabular_main.py
-``
+```
 ## Compute the Results
 1. For Image Classifier:
 ```bash
 python compute_matrix.py
-``
+```
 2. For Tabular Classifier:
 ```bash
 python tab_compute_matrix.py
-``
+```
 
 ## License
 
