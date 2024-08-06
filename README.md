@@ -14,8 +14,8 @@ The code uses **Python 3.8**.
 #### Create a Conda virtual environment:
 
 ```bash
-conda create --name ISSRE python=3.8
-conda activate ISSRE
+conda create --name rcl python=3.8
+conda activate rcl
 ```
 
 #### Clone the project and install requirements:
